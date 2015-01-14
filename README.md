@@ -3,6 +3,8 @@
 ### Setup
 
 ```
+git clone git@github.com:biao166/vim-config.git
+cd vim-config
 cp _vimrc ~/.vimrc
 cp _gvimrc ~/.gvimrc
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
