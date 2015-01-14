@@ -2,10 +2,11 @@
 
 ### ²Ù×÷
 
-> :PluginList       - lists configured plugins
-> :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-> :PluginSearch foo - searches for foo; append `!` to refresh local cache
-> :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+* git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+* :PluginList       - lists configured plugins
+* :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+* :PluginSearch foo - searches for foo; append `!` to refresh local cache
+* :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 
 
 ### À´Ô´

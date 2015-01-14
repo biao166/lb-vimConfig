@@ -13,7 +13,11 @@ Bundle 'gmarik/Vundle.vim'
 Bundle 'thoughtbot/vim-rspec'
 Bundle 'ack.vim'
 Bundle 'comments.vim'
+
+" 对文件以及buffer进行模糊查询，快速打开文件
+" ctrl + p 打开，输入文件名，实则是文件名开头几个字母就可以快速打开文件
 Bundle 'ctrlp.vim'
+
 Bundle 'scrooloose/nerdtree'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'rspec.vim'
@@ -27,12 +31,18 @@ Bundle 'tpope/vim-haml'
 Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'pangloss/vim-javascript'
 Bundle 'jelera/vim-javascript-syntax'
+
+" 面包屑栏
 Bundle 'Lokaltog/vim-powerline'
+
+" 代码高亮 （选中要高亮的词，使用 \m 来使其高亮，\n 去除）
+Bundle 'mark.vim'
+
 Bundle 'sudo.vim'
 Bundle 'xml.vim'
 Bundle 'emmet.vim'
 
-“ theme bundle
+" theme bundle
 Bundle 'busybee'
 Bundle 'DAddYE/soda.vim'
 Bundle 'altercation/vim-colors-solarized'
