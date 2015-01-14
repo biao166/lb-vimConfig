@@ -10,7 +10,13 @@ cp _gvimrc ~/.gvimrc
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
-### ²Ù×÷
+### Install Plugins:
+
+Launch vim and run :PluginInstall
+To install from command line: vim +PluginInstall +qall
+
+
+### Vundle²Ù×÷
 
 * :PluginList       - lists configured plugins
 * :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
