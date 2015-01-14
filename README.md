@@ -1,8 +1,15 @@
 ## vim-config
 
+### Setup
+
+```
+cp _vimrc ~/.vimrc
+cp _gvimrc ~/.gvimrc
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
 ### ²Ù×÷
 
-* git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 * :PluginList       - lists configured plugins
 * :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
 * :PluginSearch foo - searches for foo; append `!` to refresh local cache
