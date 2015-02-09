@@ -3,7 +3,7 @@
 ### Setup
 
 ```
-git clone git@github.com:biao166/vim-config.git
+git clone https://github.com/biao166/vim-config.git
 cd vim-config
 cp _vimrc ~/.vimrc
 cp _gvimrc ~/.gvimrc
